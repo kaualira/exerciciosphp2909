@@ -21,7 +21,10 @@
         echo "<br>";
     }
 
-    if (12 <= 11) {
+    $num12 = 12;
+    $num11 = 11;
+
+    if ($num12 <= $num11) {
         echo "12 é menor ou igual que 11";
         echo "<br>";
     } else {
